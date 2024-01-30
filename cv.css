@@ -1,0 +1,134 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #E8DADA;
+}
+.left{
+    width: 50%;
+    height: auto;
+    background-color:#E8DADA;
+    overflow: hidden;
+    float: left;
+    
+}
+.menu{
+    width: 100%;
+    height: auto;
+    float: right;
+    
+}
+.menu ul{
+    float: right;
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    background-color:coral;
+    padding: 10px;
+}
+.main{
+    width: 900px;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    
+
+}
+/* .main p i:hover{
+    background-color:coral;
+} */
+.main h2{
+    font-size: 2em;
+   
+}
+.main h3{
+    font-size: 20px;
+}
+.main p{
+    font-size: 30px;
+    margin-top: 80px;
+    line-height: 2;
+}
+.main-1 a{
+    width: 100px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.main a:hover{
+    background-color:coral;
+    color:black;
+}
+.main-2 a{
+    width: 100px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 130px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 950px;
+    float: left;
+
+}
+.box img{
+    width: 700px;
+    height:700px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.icon{
+    position: absolute;
+    bottom: 1%;
+    left: 15%;
+    font-size: 25px;
+    
+    
+}
+.icon-1{
+    width:1000px ;
+    height: auto;
+    position: absolute;
+    bottom: 1%;
+    left: 600px;
+    color: black;
+}
+
+
